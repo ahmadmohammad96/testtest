@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-13 11:47:22.215596",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "importing_section_section",
+  "upload_json_file"
+ ],
+ "fields": [
+  {
+   "fieldname": "importing_section_section",
+   "fieldtype": "Section Break",
+   "label": "Importing Section"
+  },
+  {
+   "fieldname": "upload_json_file",
+   "fieldtype": "Attach",
+   "label": "Upload JSON File"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-03-13 11:48:22.930018",
+ "modified_by": "Administrator",
+ "module": "Export Import App",
+ "name": "Import Customizations UI",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

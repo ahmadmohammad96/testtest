@@ -16,7 +16,12 @@
   "email_section_section",
   "emails",
   "section_break_axee",
-  "last_export_file"
+  "last_export_file",
+  "section_break_msxr",
+  "export_status",
+  "export_message",
+  "last_export_update",
+  "last_export_result"
  ],
  "fields": [
   {
@@ -85,12 +90,38 @@
    "label": "last_export_file",
    "options": "File",
    "read_only": 1
+  },
+  {
+   "fieldname": "section_break_msxr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Not Started",
+   "fieldname": "export_status",
+   "fieldtype": "Select",
+   "label": "Export Status",
+   "options": "\nNot Started\nStarting\nIn Progress\nCompleted\nCompleted with warnings\nFailed"
+  },
+  {
+   "fieldname": "export_message",
+   "fieldtype": "Small Text",
+   "label": "Export Message"
+  },
+  {
+   "fieldname": "last_export_update",
+   "fieldtype": "Datetime",
+   "label": "Last Export Update"
+  },
+  {
+   "fieldname": "last_export_result",
+   "fieldtype": "Code",
+   "label": "Last Export Result"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-13 11:10:38.573123",
+ "modified": "2025-03-13 17:57:14.301908",
  "modified_by": "Administrator",
  "module": "Export Import App",
  "name": "Export Customizations Module",
